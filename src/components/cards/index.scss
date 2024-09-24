@@ -1,0 +1,49 @@
+.comp-card-omdb{
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #dbdbdb;
+
+    img{
+        width: 150px;
+    }
+
+    .cartao{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #ffffff;
+        
+    }
+
+    .infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: #ffffff;
+    }
+
+    h1{
+        font: 700 20px/30px 'Roboto';
+        color: #000000;
+        background-color: #dbdbdb;
+    }
+
+    h2{
+        font: 600 16px/24px 'Roboto';
+        color: #000000;
+        background-color: #dbdbdb;
+    }
+
+    h3{
+        font: 600 16px/22px 'Roboto';
+        color: #000000;
+        background-color: #dbdbdb;
+    }
+
+}
