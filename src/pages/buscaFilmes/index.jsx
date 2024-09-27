@@ -26,7 +26,7 @@ export default function BuscaFilmes() {
         <div className='secao'>
   
           <div className='entradas'>
-              <h3>Digite o nome do filme:</h3>
+              <h3>Digite o nome do filme (em Inglês):</h3>
               <input type='text' placeholder='Nome do filme' value={filme} onChange={e => setFilme(e.target.value)}/>
               <button onClick={procurarFilmes}>Buscar</button>
           </div>
